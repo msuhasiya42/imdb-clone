@@ -1,6 +1,7 @@
 import React from 'react'
-import HomePage from '../../components/HomePage/HomePage'
-const HomePage = () => {
+import HomePage from '../../components/HomePage'
+
+const HomePageContainer = () => {
   return (
     <>
     <HomePage/>
@@ -8,4 +9,4 @@ const HomePage = () => {
   )
 }
 
-export default index
+export default HomePageContainer
